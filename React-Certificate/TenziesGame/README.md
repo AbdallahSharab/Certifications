@@ -1,12 +1,21 @@
-# React + Vite
+# Tenzies Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tenzies** is a React-based game built as one of the **capstone projects in Scrimba’s React course**.  
+It was a **guided, step-by-step project**, where each part had to be completed before moving forward. The structured format made it hands-on and ensured that all core React concepts were applied in practice.  
 
-Currently, two official plugins are available:
+The project ties together everything I learned in the React course — from components and props, to hooks, state management, conditional rendering, and side effects.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+https://tenziesgame-abdallahsharab.netlify.app/ 
 
-## Expanding the ESLint configuration
+## Game Play
+- As soon as the game loads, a **timer begins**.  
+- The goal: make all **10 dice show the same number** as quickly as possible.  
+- Click dice to “hold” them at their current value.  
+- Re-roll the rest as many times as needed until all 10 match.  
+- Win → timer stops and the game celebrates your victory.  
+- Replay → reset the dice and start again to beat your best time.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, React 
+- **Deployment:** Netlify   

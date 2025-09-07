@@ -1,12 +1,19 @@
-# React + Vite
+# Digital Businness Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Digital Business Card** is a solo project I built as part of Scrimba’s React course.  
+The project was a great way to practice **React fundamentals** while building a sleek, responsive business card for the web.  
+It worked really well as an introduction to **breaking a UI into components**, since each section of the card could be built and managed separately.
 
-Currently, two official plugins are available:
+## Live Demo
+https://digitialbusinesscard-abdallahsharab.netlify.app/ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Profile Picture & Name** – clean header section introducing me  
+- **Links to Portfolio** – quick access to my personal website  
+- **Social Links** – direct buttons for connecting on platforms like LinkedIn, GitHub, etc.  
+- **About Me Section** – short intro highlighting background and focus areas  
+- **Interests Section** – personal touch with hobbies and passions outside of coding  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Deployment:** Netlify 

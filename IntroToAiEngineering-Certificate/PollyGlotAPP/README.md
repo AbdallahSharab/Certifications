@@ -1,19 +1,18 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# PollyGlot App
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and powerful translation web app that uses the **OpenAI API** to translate text between multiple languages. Built as a solo project in Scrimba's Intro to Ai Engineering Course to explore API integration, front-end design, and deploying AI-powered applications.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Live Demo
+https://abdallahsharab.com/ 
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Features
+- Translate text between multiple languages  
+- Clean, minimal, responsive UI  
+- Real-time API integration with OpenAI 
+- Secure backend with Cloudflare Workers to protect API key
 
-Happy Coding!
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (Vanilla or React, depending on your build)  
+- **Backend:** Cloudflare Workers (serverless backend to call OpenAI API securely)  
+- **API:** OpenAI GPT-based Translation  
+- **Deployment:** Netlify (frontend) + Cloudflare Workers (backend)  

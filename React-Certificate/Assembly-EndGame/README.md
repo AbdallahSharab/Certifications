@@ -1,12 +1,22 @@
-# React + Vite
+# Assembly EndGame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Assembly Endgame** is a creative spin on the classic Hangman game, built as the **capstone project at the end of Scrimba’s React course**.  
+It was a **guided project**, broken into a series of challenges where each step built on the last. To move forward, I had to solve every challenge before advancing to the next, which made the process very hands-on while still providing guidance when needed.
 
-Currently, two official plugins are available:
+Instead of a traditional hangman, players have **11 programming languages** representing their lives. Each wrong guess eliminates one language with a playful farewell message, until only **Assembly** remains.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Live Demo
+https://assemblyendgame-abdallahsharab.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Game Play
+- Start with **11 programming languages** (JavaScript, Python, C++, Java, etc.).  
+- Each incorrect guess removes one language from the list.  
+- A custom farewell message appears for each eliminated language.  
+- Win by guessing the word before you lose all languages.  
+- Lose → You’re left coding in **Assembly** .  
+- On winning, enjoy a celebratory **confetti animation** and a “New Game” button.
+
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, React 
+- **Deployment:** Netlify   

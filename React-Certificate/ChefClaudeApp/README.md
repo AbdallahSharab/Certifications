@@ -1,12 +1,21 @@
-# React + Vite
+# Chef Claude App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Chef Claude** is an AI-powered recipe generator that uses the **Anthropic AI API** to create custom recipes based on ingredients you have at home.  
+This was a **guided project in Scrimba’s React course**, broken into challenges where I had to complete each step to move forward. It made the build hands-on while still providing guidance along the way.
 
-Currently, two official plugins are available:
+The app ensures you get creative, personalized recipes with a clean and easy-to-read layout, thanks to **React Markdown** for formatting the AI’s responses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
+https://chefclaudeapp-abdallahsharab.netlify.app/ 
 
-## Expanding the ESLint configuration
+## The way it works
+1. Enter **at least 4 ingredients** into the input form.  
+2. Once enough ingredients are added, a **"Get Recipe"** button appears.  
+3. The app sends your ingredients to the **Anthropic API**, which generates a recipe tailored to them.  
+4. The response is rendered with **React Markdown** for better readability (headers, lists, bold text, etc.). 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, React  
+- **Backend:** Cloudflare Workers (serverless backend to call OpenAI API securely)  
+- **API:** Anthropic AI API
+- **Deployment:** Netlify (frontend) + Cloudflare Workers (backend)  

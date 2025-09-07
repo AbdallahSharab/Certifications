@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.o",
+    "name": "Leads tracker",
+    "description": "Save and manage website leads. One-click to capture the current tab's URL, store it, and revisit later.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

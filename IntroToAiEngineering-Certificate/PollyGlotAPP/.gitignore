@@ -1,0 +1,15 @@
+# Ignore .env files (API keys, secrets)
+.env
+
+# Ignore node_modules (auto-generated)
+node_modules/
+
+# Ignore build output
+dist/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

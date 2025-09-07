@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>PollyGlot - Translate Anything Instantly</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <img src="assets/parrot.png" width="100px" height="100px">
+                <h1>PollyGlot<br><span>Perfect Translation Every Time</span></h1>
+            </div>
+            <div class="main">
+                <h3>Text to translate 👇</h3>
+                <textarea id="mainText" placeholder="Enter text..."></textarea>
+                
+                <h3>Select language 👇</h3>
+                <label><input type="radio" name="language" value="english">
+                    English <span class="flags">🇺🇸</span>
+                </label>
+                <label><input type="radio" name="language" value="french">
+                    French <span class="flags">🇫🇷</span>
+                </label>
+                <label><input type="radio" name="language" value="spanish">
+                    Spanish <span class="flags">🇪🇸</span>
+                </label>
+                <label><input type="radio" name="language" value="japanese">
+                    Japanese <span class="flags">🇯🇵</span>
+                </label>
+                <label><input type="radio" name="language" value="arabic">
+                    Arabic <span class="flags">🇸🇦</span>
+                </label>
+                
+                <button id="translate">Translate</button>
+                
+                <div class="result">
+                    <h3>Your Translation 👇</h3>
+                    <textarea id="translatedText" readonly></textarea>
+                </div>
+            </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

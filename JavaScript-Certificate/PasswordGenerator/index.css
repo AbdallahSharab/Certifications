@@ -1,0 +1,119 @@
+body {
+    margin: 20px;
+    margin-top: 60px;
+    background-color: #182532;
+    color: white;
+}
+
+.container {
+    width: min(800px, 80%);
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px solid white;
+    padding: 30px;
+    padding-bottom: 35px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+    font-size: clamp(1.8rem, 7vw, 3rem);
+}
+
+h3 {
+    color: #C1C0C0;
+    font-weight: normal;
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#p2 {
+    color: #41CF99;
+}
+
+label {
+    font-size: clamp(0.5rem, 4vw, 1.7rem);
+    padding: 8px;
+}
+
+#length {
+    margin-bottom: 20px;
+}
+
+input {
+    width: min(60px, 13%);
+    background-color: #C1C0C0;
+    color: black;
+    font-size: clamp(0.5rem, 3vw, 1.7rem);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#generate {
+    padding: 10px 20px;
+    font-size: clamp(0.5rem, 4vw, 1.6rem);
+    color: white;
+    background-color: rgb(43, 171, 123);
+    border: none;
+    width: min(350px, 70%);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#generate:hover {
+    background-color: rgb(43, 171, 123, 0.6);
+}
+
+.passwordContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.passwordBox {
+    background-color: #273549;
+    color: #41CF99;
+    font-weight: bold;
+    padding: 5px 20px;
+    max-width: 300px;
+    font-size: clamp(0.5rem, 3vw, 1.7rem);
+    margin-left: 2cqw;
+    text-align: center;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.copy {
+    background-color: #182532;
+    border: none;
+    margin: 1px;
+    margin-right: 1rem;
+    width: clamp(0.6rem, 8vw, 2rem);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.copy:hover {
+    transform: scale(1.1);
+}
+
+.copyIcon {
+    width: clamp(1rem, 6vw, 1.7rem);
+    color: white;
+}
+
+hr {
+    color: rgb(144, 144, 159, 0.2);
+}
+

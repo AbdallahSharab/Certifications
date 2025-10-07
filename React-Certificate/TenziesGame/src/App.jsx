@@ -48,6 +48,8 @@ export default function App() {
 
     function newGame() {
         setDice(generateAllNewDice())
+        setCount(0)
+        setTime(0)
     }
 
     function hold(id) {
